@@ -11,7 +11,7 @@ defmodule MatchingBracketsTest do
     assert MatchingBrackets.check_brackets("")
   end
 
-  @tag :pending
+  # @tag :pending
   test "unpaired brackets" do
     refute MatchingBrackets.check_brackets("[[")
   end
